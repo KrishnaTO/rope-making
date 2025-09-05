@@ -370,6 +370,82 @@
     
 
 
+    <!-- http://www.govontology.com/EM/rope-making/EM_00025 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">multiple</rdfs:label>
+        <skos:altLabel>bundle</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00026 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00026">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.govontology.com/EM/rope-making/EM_00027"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00002"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000167"/>
+                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00029"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">braid</rdfs:label>
+        <skos:definition>A pattern which entwines 3 or more strings in regular intervals to increase the longitudinal strength of a rope.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00027 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00027">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00028"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">pattern</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00028 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">sequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00029 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00029">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.govontology.com/EM/rope-making/EM_00006"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000165"/>
+                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00025"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">fibre bundle</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
