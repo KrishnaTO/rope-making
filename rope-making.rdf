@@ -451,6 +451,230 @@
     
 
 
+    <!-- http://www.govontology.com/EM/rope-making/EM_00032 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00032">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00009"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">seed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00033 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00033">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.govontology.com/EM/rope-making/EM_00032"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000196"/>
+                                <owl:someValuesFrom rdf:resource="https://www.commoncoreontologies.org/ont00000295"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">dry seed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00034 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">rock</rdfs:label>
+        <skos:altLabel>stone</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00035 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">air</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00036 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00036">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00009"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00037 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">winnow</rdfs:label>
+        <skos:definition>a process by which chaff is separated from grain</skos:definition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.govontology.com/EM/rope-making/EM_00037"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#definition"/>
+        <owl:annotatedTarget>a process by which chaff is separated from grain</owl:annotatedTarget>
+        <www:ont00001754>https://en.wikipedia.org/w/index.php?title=Winnowing&amp;oldid=1241423706</www:ont00001754>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00038 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00038">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.govontology.com/EM/rope-making/EM_00023"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000196"/>
+                                <owl:someValuesFrom rdf:resource="https://www.commoncoreontologies.org/ont00000295"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">dry stem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00039 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00039">
+        <rdfs:subClassOf rdf:resource="https://www.commoncoreontologies.org/ont00000563"/>
+        <rdfs:subClassOf rdf:resource="https://www.commoncoreontologies.org/ont00001037"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">pond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00040 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00040">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00039"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">pondbed</rdfs:label>
+        <skos:definition>A pond bed is the bottom layer of a pond and consists of all the materials used to make the substrate.</skos:definition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.govontology.com/EM/rope-making/EM_00040"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#definition"/>
+        <owl:annotatedTarget>A pond bed is the bottom layer of a pond and consists of all the materials used to make the substrate.</owl:annotatedTarget>
+        <www:ont00001754>https://www.poposoapsolar.com/blogs/pond-care/pond-bed</www:ont00001754>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00041 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00042 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00042">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.govontology.com/EM/rope-making/EM_00041"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00043"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">running water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00043 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">movement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00044 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00044">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00030"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">sun dry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00045 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00045">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00023"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">rotting stem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00046 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00046">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00045"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">decay</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
