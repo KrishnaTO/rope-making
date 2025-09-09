@@ -291,17 +291,7 @@
     <!-- http://www.govontology.com/EM/rope-making/EM_00020 -->
 
     <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00020">
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00001037"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000218"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="https://www.commoncoreontologies.org/ont00001037"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">garden</rdfs:label>
         <skos:example>Ex. A plant or rock garden</skos:example>
@@ -418,7 +408,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.govontology.com/EM/rope-making/EM_00006"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000165"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000196"/>
                         <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00025"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -430,16 +420,31 @@
     
 
 
+    <!-- http://www.govontology.com/EM/rope-making/EM_00030 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00030">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000512"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00031"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">solar radiation</rdfs:label>
+        <skos:altLabel>sun&apos;s ray</skos:altLabel>
+    </owl:Class>
+    
+
+
     <!-- http://www.govontology.com/EM/rope-making/EM_00031 -->
 
     <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000175"/>
-                <owl:someValuesFrom rdf:resource="https://www.commoncoreontologies.org/ont00000512"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">sun</rdfs:label>
     </owl:Class>
