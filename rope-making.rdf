@@ -675,6 +675,39 @@
     
 
 
+    <!-- http://www.govontology.com/EM/rope-making/EM_00047 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">crack</rdfs:label>
+        <skos:definition>A process which breaks uniformity between connected components</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00048 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">tool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00049 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00049">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00048"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">cascadera</rdfs:label>
+        <skos:altLabel>grammer</skos:altLabel>
+        <skos:definition>separates the wood from fiber strands of dried stems; first from the middle to the root and then from the middle to the tip.</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
