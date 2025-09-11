@@ -708,6 +708,46 @@
     
 
 
+    <!-- http://www.govontology.com/EM/rope-making/EM_00050 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00050">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00009"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">wood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00051 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00051">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000027"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001809"/>
+                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00025"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">strand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00052 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00052">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00009"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">root</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
