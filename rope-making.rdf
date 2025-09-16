@@ -746,17 +746,7 @@
     <!-- http://www.govontology.com/EM/rope-making/EM_00051 -->
 
     <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00051">
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000027"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001809"/>
-                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00025"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">strand</rdfs:label>
     </owl:Class>
@@ -901,6 +891,112 @@
         <owl:annotatedTarget>A process where fibres (usually cotton or wool) are passed through a series of straight, metal teeth in order to lay the fibres parallel to one another.</owl:annotatedTarget>
         <www:ont00001754>https://trc-leiden.nl/trc-needles/tools/fibre-preparation/combing-and-carding</www:ont00001754>
     </owl:Axiom>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00060 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">textile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00061 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00061">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00060"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001991"/>
+                <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">thread</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00062 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00062">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00060"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001991"/>
+                <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">garment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00063 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00063">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00062"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">towel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00064 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00064">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00062"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">sheet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00065 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00065">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00062"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">shirt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00066 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">skein</rdfs:label>
+        <skos:altLabel>zipper</skos:altLabel>
+        <skos:definition>a loosely coiled length of yarn or thread wound on a reel.</skos:definition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.govontology.com/EM/rope-making/EM_00066"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <owl:annotatedTarget>zipper</owl:annotatedTarget>
+        <skos:scopeNote>textile</skos:scopeNote>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.govontology.com/EM/rope-making/EM_00066"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#definition"/>
+        <owl:annotatedTarget>a loosely coiled length of yarn or thread wound on a reel.</owl:annotatedTarget>
+        <www:ont00001754>“Skein.” Merriam-Webster.com Dictionary, Merriam-Webster, https://www.merriam-webster.com/dictionary/skein. Accessed 12 Sep. 2025.</www:ont00001754>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00067 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000028"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">home</rdfs:label>
+    </owl:Class>
     
 
 
