@@ -387,7 +387,7 @@
     <!-- http://www.govontology.com/EM/rope-making/EM_00025 -->
 
     <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00025">
-        <rdfs:subClassOf rdf:resource="https://www.commoncoreontologies.org/ont00000768"/>
+        <rdfs:subClassOf rdf:resource="https://www.commoncoreontologies.org/ont00000314"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">multiple</rdfs:label>
         <skos:altLabel>bundle</skos:altLabel>
@@ -437,10 +437,10 @@
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.govontology.com/EM/rope-making/EM_00006"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000027"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000196"/>
-                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00025"/>
+                        <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001782"/>
+                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00006"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -583,7 +583,8 @@
             </owl:Class>
         </rdfs:subClassOf>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
-        <rdfs:label xml:lang="en">dry stem</rdfs:label>
+        <rdfs:label xml:lang="en">straw</rdfs:label>
+        <skos:altLabel>dry stem</skos:altLabel>
     </owl:Class>
     
 
@@ -619,7 +620,7 @@
     <!-- http://www.govontology.com/EM/rope-making/EM_00041 -->
 
     <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">water</rdfs:label>
     </owl:Class>
@@ -634,7 +635,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.govontology.com/EM/rope-making/EM_00041"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
                         <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00043"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -703,6 +704,7 @@
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">decay</rdfs:label>
         <skos:altLabel>rot</skos:altLabel>
+        <skos:altLabel>spoil</skos:altLabel>
     </owl:Class>
     
 
@@ -763,7 +765,7 @@
     <!-- http://www.govontology.com/EM/rope-making/EM_00051 -->
 
     <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">strand</rdfs:label>
     </owl:Class>
@@ -1023,10 +1025,20 @@
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.govontology.com/EM/rope-making/EM_00006"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000027"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000115"/>
-                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00009"/>
+                        <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001782"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.govontology.com/EM/rope-making/EM_00006"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001775"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00009"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -1034,6 +1046,88 @@
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">plant fibre</rdfs:label>
         <skos:definition>A fibre which is specifically extracted or composed of plant materials</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00070 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00070">
+        <rdfs:subClassOf rdf:resource="https://www.commoncoreontologies.org/ont00000873"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">hill</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00071 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00071">
+        <rdfs:subClassOf rdf:resource="https://www.commoncoreontologies.org/ont00000314"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">bundle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00072 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00072">
+        <rdfs:subClassOf rdf:resource="https://www.commoncoreontologies.org/ont00000633"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">kilo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00073 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00073">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000027"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001782"/>
+                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00038"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">straw bale</rdfs:label>
+        <skos:altLabel>bale of straw</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00074 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">raw</rdfs:label>
+        <skos:altLabel>unprocessed</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00075 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00075">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000195"/>
+                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00074"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">raw material</rdfs:label>
     </owl:Class>
     
 
