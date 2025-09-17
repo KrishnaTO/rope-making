@@ -1132,6 +1132,56 @@
     
 
 
+    <!-- http://www.govontology.com/EM/rope-making/EM_00076 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00076">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00009"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">sisal</rdfs:label>
+        <skos:altLabel>Agave sisalana</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00077 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">import</rdfs:label>
+        <skos:definition>A process by which a material entity is transferred into a country.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00078 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">recover</rdfs:label>
+        <skos:definition xml:lang="en">any operation the principal result of which is waste serving a useful purpose by replacing other materials which would otherwise have been used to fulfil a particular function, or waste being prepared to fulfil that function, in the plant or in the wider economy.</skos:definition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.govontology.com/EM/rope-making/EM_00078"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#definition"/>
+        <owl:annotatedTarget xml:lang="en">any operation the principal result of which is waste serving a useful purpose by replacing other materials which would otherwise have been used to fulfil a particular function, or waste being prepared to fulfil that function, in the plant or in the wider economy.</owl:annotatedTarget>
+        <www:ont00001754 xml:lang="en">https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008L0098-20240218, Chapter 1, Article 3, 15</www:ont00001754>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00079 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">waste</rdfs:label>
+        <skos:definition>A disposition which identifies the bearer to be unsuitable for which it was gathered or manufactured.</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
