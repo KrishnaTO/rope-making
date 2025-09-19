@@ -1486,6 +1486,89 @@
     
 
 
+    <!-- http://www.govontology.com/EM/rope-making/EM_00098 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00098">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00048"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">rake</rdfs:label>
+        <skos:definition>A tool which constitutes of multiple prongs</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00099 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00099">
+        <rdfs:subClassOf rdf:resource="https://www.commoncoreontologies.org/ont00000653"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">rhythm</rdfs:label>
+        <skos:definition>An algorithm which has a set of instructions following a tempo cyclically.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00100 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">sharp</rdfs:label>
+        <skos:definition>A disposition which inheres in an object to cut a flat sheet.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00101 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">spike</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00102 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00103 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00103">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00102"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">iron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00105 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00105">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.govontology.com/EM/rope-making/EM_00101"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000176"/>
+                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00103"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">iron spike</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
