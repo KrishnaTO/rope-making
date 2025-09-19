@@ -1569,6 +1569,67 @@
     
 
 
+    <!-- http://www.govontology.com/EM/rope-making/EM_00106 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">hollow</rdfs:label>
+        <skos:definition>A disposition which inheres in an object consisting of empty or low density material occupying the inner volume of the object.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00107 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001921"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.govontology.com/EM/rope-making/EM_00006"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000196"/>
+                                <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00071"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">copada</rdfs:label>
+        <skos:altLabel>flake</skos:altLabel>
+        <skos:definition>A process of knotting both ends of a bunch of fibres, using the endings to tie the bunch.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00108 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000028"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">outdoor</rdfs:label>
+        <skos:altLabel>outside</skos:altLabel>
+        <skos:definition>A three-dimensional spatial region which constitutes a space outside of shelter and open to the environment including the atmosphere.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00109 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00109">
+        <rdfs:subClassOf rdf:resource="https://www.commoncoreontologies.org/ont00000120"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">meter</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
