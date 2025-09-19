@@ -390,7 +390,6 @@
         <rdfs:subClassOf rdf:resource="https://www.commoncoreontologies.org/ont00000314"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">multiple</rdfs:label>
-        <skos:altLabel>bundle</skos:altLabel>
         <skos:definition>An amount which consists of more than 1 value</skos:definition>
     </owl:Class>
     
@@ -788,6 +787,7 @@
         <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00048"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">sword</rdfs:label>
+        <skos:altLabel>blade</skos:altLabel>
         <skos:definition>A tool made in a long rectagular shape, with thinner edges.</skos:definition>
     </owl:Class>
     
@@ -926,11 +926,31 @@
     <!-- http://www.govontology.com/EM/rope-making/EM_00061 -->
 
     <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00061">
-        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00060"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.govontology.com/EM/rope-making/EM_00060"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001816"/>
+                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00095"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000178"/>
-                <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00006"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.govontology.com/EM/rope-making/EM_00096"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000196"/>
+                                <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00025"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
@@ -1327,6 +1347,141 @@
         </rdfs:subClassOf>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">drain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00090 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00090">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001857"/>
+                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00054"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">tapping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00091 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00092 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00092">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000024"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000129"/>
+                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00091"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">hand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00093 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">fork</rdfs:label>
+        <skos:altLabel>An object which contains 2 or more prongs separated by a gap</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00094 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">separate</rdfs:label>
+        <skos:definition>A disposition which holds a division between multiple parts</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00095 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000132"/>
+                <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">spinning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00096 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00096">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.govontology.com/EM/rope-making/EM_00060"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001816"/>
+                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00095"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000178"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.govontology.com/EM/rope-making/EM_00006"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000127"/>
+                                <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00097"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">yarn</rdfs:label>
+        <skos:definition>A textile which is produced from spinning loose fibres into a continuous strand of fibre, held together by friction.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00097 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">friction</rdfs:label>
     </owl:Class>
     
 
