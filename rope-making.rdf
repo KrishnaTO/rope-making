@@ -16,6 +16,7 @@
         <owl:imports rdf:resource="https://www.commoncoreontologies.org/2024-11-06/ExtendedRelationOntology"/>
         <owl:imports rdf:resource="https://www.commoncoreontologies.org/2024-11-06/InformationEntityOntology"/>
         <owl:imports rdf:resource="https://www.commoncoreontologies.org/2024-11-06/QualityOntology"/>
+        <dc:creator>Krishna Udaiwal</dc:creator>
         <rdfs:label>Rope Making</rdfs:label>
     </owl:Ontology>
     
@@ -1229,6 +1230,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">bind</rdfs:label>
+        <skos:altLabel>knot</skos:altLabel>
     </owl:Class>
     
 
@@ -1626,6 +1628,87 @@
         <rdfs:subClassOf rdf:resource="https://www.commoncoreontologies.org/ont00000120"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">meter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00111 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000028"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">work area</rdfs:label>
+        <skos:altLabel>work environment</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00112 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00112">
+        <rdfs:subClassOf rdf:resource="https://www.commoncoreontologies.org/ont00000406"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">longitudinal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00113 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000028"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">esplanade</rdfs:label>
+        <skos:altLabel>promenade</skos:altLabel>
+        <skos:definition>A three-dimensional spatial region which is a long, open, level area, usually next to a river or large body of water.</skos:definition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.govontology.com/EM/rope-making/EM_00113"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#definition"/>
+        <owl:annotatedTarget>A three-dimensional spatial region which is a long, open, level area, usually next to a river or large body of water.</owl:annotatedTarget>
+        <www:ont00001754>https://en.wikipedia.org/w/index.php?title=Esplanade&amp;oldid=1303063005</www:ont00001754>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00114 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">wheel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00115 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00115">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.govontology.com/EM/rope-making/EM_00114"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000110"/>
+                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00050"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">wooden wheel</rdfs:label>
+        <skos:definition>A wheel which consists of wood material.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00116 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">large</rdfs:label>
+        <skos:definition>A relational quality which inheres in the object possessing a greater size quality than the comparable object.</skos:definition>
     </owl:Class>
     
 
