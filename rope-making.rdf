@@ -766,7 +766,7 @@
     <!-- http://www.govontology.com/EM/rope-making/EM_00051 -->
 
     <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00002"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">strand</rdfs:label>
     </owl:Class>
@@ -1885,11 +1885,106 @@
     <!-- http://www.govontology.com/EM/rope-making/EM_00128 -->
 
     <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00128">
-        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00123"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000146"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">falcadero</rdfs:label>
         <skos:altLabel xml:lang="es">falcadero</skos:altLabel>
-        <skos:altLabel xml:lang="en">hole in ground</skos:altLabel>
+        <skos:definition>A hole in ground</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00129 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">wedge</rdfs:label>
+        <skos:definition>a piece of a substance (such as wood or iron) that tapers to a thin edge.</skos:definition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.govontology.com/EM/rope-making/EM_00129"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#definition"/>
+        <owl:annotatedTarget>a piece of a substance (such as wood or iron) that tapers to a thin edge.</owl:annotatedTarget>
+        <www:ont00001754>https://www.merriam-webster.com/dictionary/wedge</www:ont00001754>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00130 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">tension</rdfs:label>
+        <skos:definition>A quality of pulling or stretching force transmitted axially along an object</skos:definition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.govontology.com/EM/rope-making/EM_00130"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#definition"/>
+        <owl:annotatedTarget>A quality of pulling or stretching force transmitted axially along an object</owl:annotatedTarget>
+        <www:ont00001754>https://en.wikipedia.org/w/index.php?title=Tension_(physics)&amp;oldid=1306349837</www:ont00001754>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00131 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00131">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00002"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">garrotera</rdfs:label>
+        <skos:altLabel xml:lang="es">garrotera</skos:altLabel>
+        <skos:altLabel>rear</skos:altLabel>
+        <skos:definition>A rope which is used to hold the tension opposite of the crosshead with which rope is held during rope making.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00132 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00132">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00002"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">trasera</rdfs:label>
+        <skos:altLabel xml:lang="es">trasera</skos:altLabel>
+        <skos:altLabel>rear rope</skos:altLabel>
+        <skos:definition>A rope which is used to hold the tension to the rear of the crosshead with which rope is held during rope making.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00133 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">carrucha</rdfs:label>
+        <skos:altLabel xml:lang="es">carrucha</skos:altLabel>
+        <skos:altLabel>carriage</skos:altLabel>
+        <skos:definition>An object which is a module attached to the crosshead where the strands of ropes are hooked, for being braided together.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00134 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00134">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00135"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">alarba</rdfs:label>
+        <skos:definition>A wire which is on the carrucha and used to hook a strand.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00135 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">wire</rdfs:label>
+        <skos:definition>A length of metal which holds flexibility versus tensional strength, used to attach objects.</skos:definition>
     </owl:Class>
     
 
