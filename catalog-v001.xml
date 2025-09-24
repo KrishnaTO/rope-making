@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="https://www.commoncoreontologies.org/2024-11-06/EventOntology" uri="https://raw.githubusercontent.com/CommonCoreOntology/CommonCoreOntologies/refs/heads/develop/src/cco-modules/EventOntology.ttl"/>
+    <uri id="Imports Wizard Entry" name="https://www.commoncoreontologies.org/2024-11-05/AgentOntology" uri="https://raw.githubusercontent.com/CommonCoreOntology/CommonCoreOntologies/refs/heads/develop/src/cco-modules/AgentOntology.ttl"/>
     <uri id="Imports Wizard Entry" name="https://www.commoncoreontologies.org/2024-11-06/ExtendedRelationOntology" uri="https://raw.githubusercontent.com/CommonCoreOntology/CommonCoreOntologies/refs/heads/develop/src/cco-modules/ExtendedRelationOntology.ttl"/>
     <uri id="Imports Wizard Entry" name="https://www.commoncoreontologies.org/2024-11-06/QualityOntology" uri="https://raw.githubusercontent.com/CommonCoreOntology/CommonCoreOntologies/refs/heads/develop/src/cco-modules/QualityOntology.ttl"/>
     <uri id="Imports Wizard Entry" name="https://www.commoncoreontologies.org/2024-11-06/InformationEntityOntology" uri="https://raw.githubusercontent.com/CommonCoreOntology/CommonCoreOntologies/refs/heads/develop/src/cco-modules/InformationEntityOntology.ttl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1758054982220" name="http://purl.obolibrary.org/obo/bfo-temporalized-relations.owl/" uri="imports/bfo.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1758054982220" name="http://www.govontology.com/EM/rope-making/" uri="rope-making.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1758054982220" name="https://www.commoncoreontologies.org/ExtendedRelationOntology" uri="imports/ExtendedRelationOntology.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1758054982220" name="https://www.commoncoreontologies.org/GeospatialOntology/" uri="imports/GeospatialOntology.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1758054982220" name="https://www.commoncoreontologies.org/QualityOntology/" uri="imports/QualityOntology.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1758054982220" name="https://www.commoncoreontologies.org/TimeOntology/" uri="imports/TimeOntology.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1758593875974" name="http://purl.obolibrary.org/obo/bfo-temporalized-relations.owl/" uri="imports/bfo.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1758593875974" name="http://www.govontology.com/EM/rope-making/" uri="rope-making.rdf"/>
     </group>
 </catalog>
