@@ -735,8 +735,9 @@
     <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00049">
         <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00048"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
-        <rdfs:label xml:lang="en">cascadera</rdfs:label>
-        <skos:altLabel>grammer</skos:altLabel>
+        <rdfs:label>cascadera</rdfs:label>
+        <skos:altLabel xml:lang="es">cascadera</skos:altLabel>
+        <skos:altLabel xml:lang="es">grammer</skos:altLabel>
         <skos:definition>separates the wood from fiber strands of dried stems; first from the middle to the root and then from the middle to the tip.</skos:definition>
     </owl:Class>
     
@@ -1547,6 +1548,7 @@
         <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00102"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">iron</rdfs:label>
+        <skos:altLabel>Fe</skos:altLabel>
     </owl:Class>
     
 
@@ -1604,7 +1606,8 @@
         </rdfs:subClassOf>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">copada</rdfs:label>
-        <skos:altLabel>flake</skos:altLabel>
+        <skos:altLabel xml:lang="es">copada</skos:altLabel>
+        <skos:altLabel xml:lang="es">flake</skos:altLabel>
         <skos:definition>A process of knotting both ends of a bunch of fibres, using the endings to tie the bunch.</skos:definition>
     </owl:Class>
     
@@ -1677,6 +1680,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">wheel</rdfs:label>
+        <skos:altLabel xml:lang="es">rueda</skos:altLabel>
     </owl:Class>
     
 
@@ -1697,6 +1701,7 @@
         </rdfs:subClassOf>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">wooden wheel</rdfs:label>
+        <skos:altLabel xml:lang="es">rueda de medera</skos:altLabel>
         <skos:definition>A wheel which consists of wood material.</skos:definition>
     </owl:Class>
     
@@ -1727,16 +1732,16 @@
     <!-- http://www.govontology.com/EM/rope-making/EM_00118 -->
 
     <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00118">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000142"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
-        <rdfs:label xml:lang="en">axis</rdfs:label>
-        <skos:definition>a straight line about which a body or a geometric figure rotates or may be supposed to rotate.</skos:definition>
+        <rdfs:label xml:lang="en">axle</rdfs:label>
+        <skos:definition>A fixed bar or beam with bearings at its ends on which wheels (as of a cart) revolve.</skos:definition>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.govontology.com/EM/rope-making/EM_00118"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#definition"/>
-        <owl:annotatedTarget>a straight line about which a body or a geometric figure rotates or may be supposed to rotate.</owl:annotatedTarget>
-        <www:ont00001754>https://www.merriam-webster.com/dictionary/axis</www:ont00001754>
+        <owl:annotatedTarget>A fixed bar or beam with bearings at its ends on which wheels (as of a cart) revolve.</owl:annotatedTarget>
+        <www:ont00001754>https://www.merriam-webster.com/dictionary/axle</www:ont00001754>
     </owl:Axiom>
     
 
@@ -1744,20 +1749,11 @@
     <!-- http://www.govontology.com/EM/rope-making/EM_00119 -->
 
     <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00119">
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000024"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000082"/>
-                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00118"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00118"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
-        <rdfs:label xml:lang="en">axis support</rdfs:label>
-        <skos:definition>A fiat object part which belongs to and supports an object on its axis.</skos:definition>
+        <rdfs:label xml:lang="en">axle support</rdfs:label>
+        <skos:altLabel xml:lang="es">apoyo de eje</skos:altLabel>
+        <skos:definition>A support for an axle.</skos:definition>
     </owl:Class>
     
 
@@ -1793,9 +1789,9 @@
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000030"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000195"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000194"/>
                         <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00120"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -1803,7 +1799,97 @@
         </rdfs:subClassOf>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">bearing</rdfs:label>
-        <skos:definition>A role which inheres in the material entity which bears another material entity.</skos:definition>
+        <skos:altLabel xml:lang="es">Patillas</skos:altLabel>
+        <skos:definition>An object which bears another object from moving in a fashion other than intended.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00122 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">bell tower</rdfs:label>
+        <skos:altLabel xml:lang="es">campanar</skos:altLabel>
+        <skos:definition>An object which is used as support pillar bearing a functional object.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00123 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000146"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">ground</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00124 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">reinforce</rdfs:label>
+        <skos:definition>A disposition which adds additional support to the mechanism holding the object in place.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00125 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">pin</rdfs:label>
+        <skos:definition>An object which consists of a long length of body and sharp end on one side, used to be impaled into a surface.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00126 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">crosshead</rdfs:label>
+        <skos:altLabel xml:lang="es">cruceta</skos:altLabel>
+        <skos:definition>An object which is post that is anchored in the ground and holds various different attachments.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00127 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00127">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000197"/>
+                        <owl:someValuesFrom rdf:resource="http://www.govontology.com/EM/rope-making/EM_00075"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">composition</rdfs:label>
+        <skos:definition>A quality which inheres in a object being made of a raw material.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00128 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00128">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00123"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">falcadero</rdfs:label>
+        <skos:altLabel xml:lang="es">falcadero</skos:altLabel>
+        <skos:altLabel xml:lang="en">hole in ground</skos:altLabel>
     </owl:Class>
     
 
