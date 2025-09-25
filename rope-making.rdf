@@ -1545,6 +1545,7 @@
         </rdfs:subClassOf>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">rake</rdfs:label>
+        <skos:altLabel xml:lang="es">rastrillo</skos:altLabel>
         <skos:definition>A tool which constitutes of multiple prongs</skos:definition>
     </owl:Class>
     
@@ -2110,6 +2111,7 @@
         <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00125"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">stake</rdfs:label>
+        <skos:altLabel xml:lang="es">estaca</skos:altLabel>
         <skos:definition>A pin which is larger and typically rectangular in width and height.</skos:definition>
     </owl:Class>
     
@@ -2142,6 +2144,61 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">metal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00141 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">tie</rdfs:label>
+        <skos:definition>A process which is joins multiple objects through the use of knots.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00142 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">prevent</rdfs:label>
+        <skos:definition>A process which inheres in the negation of the start of process.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00143 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">rub</rdfs:label>
+        <skos:definition>A process which is caused due to friction from the surfaces of 2 objects moving at unequal speeds.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00144 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00144">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00002"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">pulley rope</rdfs:label>
+        <skos:altLabel xml:lang="es">polea</skos:altLabel>
+        <skos:definition>A rope which transmits the driving force from the wheel to the crosshead carriages during rope making.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00145 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">transmit</rdfs:label>
     </owl:Class>
     
 
