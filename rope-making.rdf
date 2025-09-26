@@ -745,8 +745,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
-        <rdfs:label>cascadera</rdfs:label>
-        <skos:altLabel xml:lang="es">cascadera</skos:altLabel>
+        <rdfs:label xml:lang="es">cascadera</rdfs:label>
         <skos:altLabel xml:lang="es">grammer</skos:altLabel>
         <skos:definition>A tool which separates the wood from fiber strands of dried stems; first from the middle to the root and then from the middle to the tip.</skos:definition>
     </owl:Class>
@@ -1922,8 +1921,8 @@
     <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00126">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
-        <rdfs:label xml:lang="en">crosshead</rdfs:label>
-        <skos:altLabel xml:lang="es">cruceta</skos:altLabel>
+        <rdfs:label xml:lang="es">cruceta</rdfs:label>
+        <skos:altLabel xml:lang="en">crosshead</skos:altLabel>
         <skos:definition>An object which is post that is anchored in the ground and holds various different attachments.</skos:definition>
     </owl:Class>
     
@@ -2018,8 +2017,7 @@
     <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00131">
         <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00002"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
-        <rdfs:label xml:lang="en">garrotera</rdfs:label>
-        <skos:altLabel xml:lang="es">garrotera</skos:altLabel>
+        <rdfs:label xml:lang="es">garrotera</rdfs:label>
         <skos:altLabel>rear</skos:altLabel>
         <skos:definition>A rope which is used to hold the tension opposite of the crosshead with which rope is held during rope making.</skos:definition>
     </owl:Class>
@@ -2031,9 +2029,8 @@
     <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00132">
         <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00002"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
-        <rdfs:label xml:lang="en">trasera</rdfs:label>
+        <rdfs:label xml:lang="es">trasera</rdfs:label>
         <skos:altLabel>rear rope</skos:altLabel>
-        <skos:altLabel xml:lang="es">trasera</skos:altLabel>
         <skos:definition>A rope which is used to hold the tension to the rear of the crosshead with which rope is held during rope making.</skos:definition>
     </owl:Class>
     
@@ -2044,9 +2041,8 @@
     <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00133">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
-        <rdfs:label xml:lang="en">carrucha</rdfs:label>
+        <rdfs:label xml:lang="es">carrucha</rdfs:label>
         <skos:altLabel>carriage</skos:altLabel>
-        <skos:altLabel xml:lang="es">carrucha</skos:altLabel>
         <skos:definition>An object which is a module attached to the crosshead where the strands of ropes are hooked, for being braided together.</skos:definition>
     </owl:Class>
     
@@ -2057,7 +2053,7 @@
     <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00134">
         <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00135"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
-        <rdfs:label xml:lang="en">alarba</rdfs:label>
+        <rdfs:label xml:lang="es">alarba</rdfs:label>
         <skos:definition>A wire which is on the carrucha and used to hook a strand.</skos:definition>
     </owl:Class>
     
@@ -2187,7 +2183,6 @@
         <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00002"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">pulley rope</rdfs:label>
-        <skos:altLabel xml:lang="es">polea</skos:altLabel>
         <skos:definition>A rope which transmits the driving force from the wheel to the crosshead carriages during rope making.</skos:definition>
     </owl:Class>
     
@@ -2199,6 +2194,51 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
         <rdfs:label xml:lang="en">transmit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00146 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00146">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00133"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="es">cruceta de carrucha</rdfs:label>
+        <skos:altLabel xml:lang="en">crosshead carriage</skos:altLabel>
+        <skos:definition>A carriage which is mounted on a crosshead.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00147 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">manufacture</rdfs:label>
+        <skos:definition>A process which transforms raw or processed material into useful products, which may include by-products.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00148 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="en">compose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.govontology.com/EM/rope-making/EM_00149 -->
+
+    <owl:Class rdf:about="http://www.govontology.com/EM/rope-making/EM_00149">
+        <rdfs:subClassOf rdf:resource="http://www.govontology.com/EM/rope-making/EM_00126"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2627-0696"/>
+        <rdfs:label xml:lang="es">cruceta de hilar</rdfs:label>
+        <skos:altLabel xml:lang="en">spinning crosshead</skos:altLabel>
+        <skos:definition>A crosshead with 1 or more spinning crosshead carriages.</skos:definition>
     </owl:Class>
     
 
